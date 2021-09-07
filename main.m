@@ -1,6 +1,6 @@
 % 暴力求解
 clc;clear;close all;
-test_data = importdata('my_test_data_30.xlsx');
+test_data = importdata('my_test_data_10.xlsx');
 depot_time_window1 = TimeTrans(test_data(1,4)); % time window of depot
 depot_time_window2 = TimeTrans(test_data(1,5));
 vertexs = test_data(:,2:3); 
